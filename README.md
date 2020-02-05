@@ -13,11 +13,18 @@ go get github.com/dollarkillerx/structure
 │   └── circle_queue_test.go
 ├── go.mod
 ├── LICENSE
-├── queue        // 队列
+├── link_queue   // 链式 队列
+│   ├── link_queue.go
+│   └── link_queue_test.go
+├── link_stack   // 链式 栈
+│   ├── link_stack.go
+│   └── link_stack_test.go
+├── queue      // 队列
 │   ├── queue.go
 │   └── queue_test.go
 ├── README.md
-└── stack        // 栈
+└── stack      // 栈
     ├── stack.go
     └── stack_test.go
+
 ```
